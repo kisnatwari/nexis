@@ -27,51 +27,50 @@ interface ReviewProps {
 const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
-    name: "John Doe",
-    userName: "Product Manager",
+    name: "Anil Shrestha",
+    userName: "Gym Owner, Kathmandu",
     comment:
-      "Wow NextJs + Shadcn is awesome!. This template lets me change colors, fonts and images to match my brand identity. ",
+      "Nexis Gym Management Software has been a game-changer for my gym. The advanced access control and seamless membership management have streamlined our operations, and the automated alerts have kept our members engaged and informed.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Sophia Collins",
-    userName: "Cybersecurity Analyst",
+    name: "Sita Thapa",
+    userName: "Fitness Instructor, Pokhara",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna. ",
+      "As a fitness instructor, I've been impressed by the versatility of Nexis Gym Management Software. The integrated multi-operational features make it easy for me to manage schedules, track attendance, and communicate with members.",
     rating: 4.8,
   },
-
   {
     image: "https://github.com/shadcn.png",
-    name: "Adam Johnson",
-    userName: "Chief Technology Officer",
+    name: "Raj Khadka",
+    userName: "General Manager, Gym Xpress, Biratnagar",
     comment:
-      "Lorem ipsum dolor sit amet,exercitation. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.",
+      "Nexis Gym Management Software has been a lifesaver for our multi-location gym chain. The ability to manage everything from a single dashboard has streamlined our operations and allowed us to focus on providing an exceptional experience for our members.",
     rating: 4.9,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ethan Parker",
-    userName: "Data Scientist",
+    name: "Asha Gurung",
+    userName: "Fitness Enthusiast, Lalitpur",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod labore et dolore magna aliqua. Ut enim ad minim veniam.",
+      "As a gym member, I've been impressed by the convenience and user-friendliness of the Nexis Gym Management Software. The QR code system and mobile compatibility make it easy for me to manage my membership and stay connected with the gym.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Ava Mitchell",
-    userName: "IT Project Manager",
+    name: "Deepak Poudel",
+    userName: "Gym Manager, Dharan",
     comment:
-      "Lorem ipsum dolor sit amet, tempor incididunt  aliqua. Ut enim ad minim veniam, quis nostrud incididunt consectetur adipiscing elit.",
+      "The robust accounting features of Nexis Gym Management Software have been a game-changer for our gym. We can now track payments and revenues with ease, which has helped us make more informed business decisions and improve our overall financial management.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Isabella Reed",
-    userName: "DevOps Engineer",
+    name: "Priya Shrestha",
+    userName: "Fitness Enthusiast, Bhaktapur",
     comment:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "I've been a member of several gyms, but Nexis Gym Management Software has been the most impressive. The automated SMS alerts and personalized content curation have kept me engaged and motivated to continue my fitness journey.",
     rating: 4.9,
   },
 ];
@@ -85,7 +84,7 @@ export const TestimonialSection = () => {
         </h2>
 
         <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-          Hear What Our 1000+ Clients Say
+          Hear What Our Satisfied Clients in Nepal Say
         </h2>
       </div>
 

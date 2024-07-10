@@ -11,39 +11,33 @@ interface FeaturesProps {
 const featureList: FeaturesProps[] = [
   {
     icon: "TabletSmartphone",
-    title: "Mobile Friendly",
+    title: "Advanced Access Control",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, consectetur.",
+      "Face recognition and fingerprint systems for secure access, preventing unauthorized entry and allowing quick access for members.",
   },
   {
     icon: "BadgeCheck",
-    title: "Social Proof",
+    title: "Integrated Multi-Operational Software",
     description:
-      "Lorem ipsum dolor sit amet consectetur. Natus consectetur, odio ea accusamus aperiam.",
+      "Combines various gym operations for easy management, allowing you to manage multiple locations from a single dashboard.",
   },
   {
     icon: "Goal",
-    title: "Targeted Content",
+    title: "Comprehensive Membership Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. odio ea accusamus aperiam.",
+      "Handles registrations, renewals, attendance, and member updates, sending automated SMS alerts for renewals and announcements.",
   },
   {
     icon: "PictureInPicture",
-    title: "Strong Visuals",
+    title: "Efficient QR Code System",
     description:
-      "Lorem elit. A odio velit cum aliquam. Natus consectetur dolores, odio ea accusamus aperiam.",
+      "Simplifies registrations and renewals for members, providing convenience for members to create and renew memberships on the go.",
   },
   {
     icon: "MousePointerClick",
-    title: "Clear CTA",
+    title: "Robust Accounting Features",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing. odio ea accusamus consectetur.",
-  },
-  {
-    icon: "Newspaper",
-    title: "Clear Headline",
-    description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur.",
+      "Tracks payments and revenues with detailed records, allowing you to control finances across multiple branches.",
   },
 ];
 
@@ -55,13 +49,12 @@ export const FeaturesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        What Makes Us Different
+        What Sets Us Apart
       </h2>
 
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatem
-        fugiat, odit similique quasi sint reiciendis quidem iure veritatis optio
-        facere tenetur.
+        Discover the unique features and capabilities that make our platform the
+        preferred choice for innovative gym owners and managers.
       </h3>
 
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">

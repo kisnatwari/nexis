@@ -139,6 +139,7 @@ html {
 
 
 
+
 @layer base {
   :root {
     --background: 0 0% 100%;
@@ -170,7 +171,7 @@ html {
     --card-foreground: 210 20% 98%;
     --popover: 224 71.4% 4.1%;
     --popover-foreground: 210 20% 98%;
-    --primary: 218 95% 15%;
+    --primary: 263.4 70% 50.4%;
     --primary-foreground: 210 20% 98%;
     --secondary: 215 27.9% 16.9%;
     --secondary-foreground: 210 20% 98%;
@@ -185,6 +186,7 @@ html {
     --ring: 263.4 70% 50.4%;
   }
 }
+
 
 
 .shadow-light {

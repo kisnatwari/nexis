@@ -11,27 +11,27 @@ interface BenefitsProps {
 const benefitList: BenefitsProps[] = [
   {
     icon: "Blocks",
-    title: "Build Brand Trust",
+    title: "Streamlined Operations",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "Nexis Gym Management Software combines various operations into a single integrated platform, making it easier for gym owners and managers to oversee all aspects of their business.",
   },
   {
     icon: "LineChart",
-    title: "More Leads",
+    title: "Increased Member Engagement",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam, natus consectetur.",
+      "The software's automated SMS alert system and personalized content curation help keep members informed and engaged, reducing manual reminders and improving customer satisfaction.",
   },
   {
     icon: "Wallet",
-    title: "Higher Conversions",
+    title: "Improved Financial Management",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus consectetur. A odio velit cum aliquam",
+      "Nexis Gym Management Software offers robust accounting features that allow gym owners to track payments, revenues, and expenses with detailed records, enabling better financial decision-making.",
   },
   {
     icon: "Sparkle",
-    title: "Test Marketing Ideas",
+    title: "Enhanced Security and Access Control",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. A odio velit cum aliquam. Natus consectetur dolores.",
+      "The advanced access control system, which includes face recognition and fingerprint systems, ensures only authorized members can enter the gym, improving security and preventing unauthorized access.",
   },
 ];
 
@@ -43,12 +43,10 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Your Shortcut to Success
+            How Nexis Gym Management Software Can Benefit Your Gym
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Non
-            ducimus reprehenderit architecto rerum similique facere odit
-            deleniti necessitatibus quo quae.
+            Discover how our comprehensive gym management software can help streamline your operations, improve member engagement, and enhance overall efficiency.
           </p>
         </div>
 

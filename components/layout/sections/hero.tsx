@@ -8,7 +8,7 @@ import Image from "next/image";
 import Link from "next/link";
 
 export const HeroSection = () => {
-  const { theme } = useTheme();
+  const theme = useTheme().forcedTheme;
   return (
     <section className="container w-full">
       <div className="grid relative z-10 place-items-center lg:max-w-screen-xl gap-8 mx-auto py-20 md:py-32">
@@ -21,8 +21,8 @@ export const HeroSection = () => {
           </div>
 
           <p className="max-w-screen-sm mx-auto text-xl text-muted-foreground">
-            {`We're more than just a tool, we're a community of passionate
-            creators. Get access to exclusive resources, tutorials, and support.`}
+            {`we specialize in integrating cutting-edge access control systems, including face 
+recognition and fingerprint technology, with comprehensive member management solutions.`}
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
@@ -41,8 +41,8 @@ export const HeroSection = () => {
             className="w-full md:w-[1200px] mx-auto rounded-lg relative z-10 rouded-lg leading-none flex items-center border border-t-2 border-secondary  border-t-primary/30"
             src={
               theme === "light"
-                ? "/hero-image-light.jpeg"
-                : "/hero-image-dark.jpeg"
+                ? "/hero-img-light.png"
+                : "/hero-img-dark.png"
             }
             alt="dashboard"
           />

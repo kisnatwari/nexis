@@ -17,25 +17,27 @@ interface ServiceProps {
 }
 const serviceList: ServiceProps[] = [
   {
-    title: "Custom Domain Integration",
+    title: "Gym Management Software",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit adipisicing.",
-    pro: 0,
+      "Our comprehensive gym management software helps streamline your operations, from membership management to financial tracking.",
+    pro: 1,
   },
   {
-    title: "Social Media Integrations",
+    title: "Automated Member Engagement",
     description:
-      "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestiae, dicta.",
-    pro: 0,
+      "Keep your members informed and engaged with our automated SMS alert system and personalized content curation.",
+    pro: 1,
   },
   {
-    title: "Email Marketing Integrations",
-    description: "Lorem dolor sit amet adipisicing.",
-    pro: 0,
+    title: "Advanced Access Control",
+    description:
+      "Enhance security and efficiency with our face recognition and fingerprint-based access control system.",
+    pro: 1,
   },
   {
-    title: "SEO Optimization",
-    description: "Lorem ipsum dolor sit amet consectetur.",
+    title: "Multi-Location Management",
+    description:
+      "Manage multiple gym locations from a single dashboard, with complete control over memberships, staff, schedules, and finances.",
     pro: 1,
   },
 ];
@@ -48,11 +50,10 @@ export const ServicesSection = () => {
       </h2>
 
       <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Grow Your Business
+        Elevate Your Gym with Nexis
       </h2>
       <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground mb-8">
-        From marketing and sales to operations and strategy, we have the
-        expertise to help you achieve your goals.
+        Discover how our comprehensive gym management solutions can help you streamline operations, improve member engagement, and drive business growth.
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
