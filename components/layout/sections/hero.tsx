@@ -26,10 +26,12 @@ recognition and fingerprint technology, with comprehensive member management sol
           </p>
 
           <div className="space-y-4 md:space-y-0 md:space-x-4">
+            <Link href={'https://gym-demo.krishnachapagain.com.np'} target="_blank">
             <Button className="w-5/6 md:w-1/4 font-bold group/arrow">
-              Get Started
+              Get Demo
               <ArrowRight className="size-5 ml-2 group-hover/arrow:translate-x-1 transition-transform" />
             </Button>
+            </Link>
           </div>
         </div>
 

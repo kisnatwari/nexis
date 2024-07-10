@@ -25,42 +25,19 @@ interface ReviewProps {
 }
 
 const reviewList: ReviewProps[] = [
+ 
   {
     image: "https://github.com/shadcn.png",
-    name: "Anil Shrestha",
-    userName: "Gym Owner, Kathmandu",
-    comment:
-      "Nexis Gym Management Software has been a game-changer for my gym. The advanced access control and seamless membership management have streamlined our operations, and the automated alerts have kept our members engaged and informed.",
-    rating: 5.0,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Sita Thapa",
-    userName: "Fitness Instructor, Pokhara",
-    comment:
-      "As a fitness instructor, I've been impressed by the versatility of Nexis Gym Management Software. The integrated multi-operational features make it easy for me to manage schedules, track attendance, and communicate with members.",
-    rating: 4.8,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Raj Khadka",
-    userName: "General Manager, Gym Xpress, Biratnagar",
-    comment:
-      "Nexis Gym Management Software has been a lifesaver for our multi-location gym chain. The ability to manage everything from a single dashboard has streamlined our operations and allowed us to focus on providing an exceptional experience for our members.",
-    rating: 4.9,
-  },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Asha Gurung",
-    userName: "Fitness Enthusiast, Lalitpur",
+    name: "Prakash Gurung",
+    userName: "CPFC, Kshetrapur",
     comment:
       "As a gym member, I've been impressed by the convenience and user-friendliness of the Nexis Gym Management Software. The QR code system and mobile compatibility make it easy for me to manage my membership and stay connected with the gym.",
     rating: 5.0,
   },
   {
     image: "https://github.com/shadcn.png",
-    name: "Deepak Poudel",
-    userName: "Gym Manager, Dharan",
+    name: "Maria Gurung",
+    userName: "CPFC, Bharatpur",
     comment:
       "The robust accounting features of Nexis Gym Management Software have been a game-changer for our gym. We can now track payments and revenues with ease, which has helped us make more informed business decisions and improve our overall financial management.",
     rating: 5.0,

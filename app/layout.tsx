@@ -7,9 +7,9 @@ import { ThemeProvider } from "@/components/layout/theme-provider";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Shadcn - Landing template",
-  description: "Landing template from Shadcn",
-};
+  "title": "Nexis - Gym Management Software",
+  "description": "Comprehensive gym management software with advanced access control and efficient member management."
+}
 
 export default function RootLayout({
   children,
@@ -25,7 +25,7 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <Navbar />
+          {/* <Navbar /> */}
 
           {children}
         </ThemeProvider>

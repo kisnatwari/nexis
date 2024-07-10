@@ -57,15 +57,15 @@ export const ServicesSection = () => {
       </h3>
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4"></div>
 
-      <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-4 w-full lg:w-[60%] mx-auto">
+      <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-6 w-full lg:w-[60%] mx-auto">
         {serviceList.map(({ title, description, pro }) => (
           <Card
             key={title}
             className="bg-muted/60 dark:bg-card h-full relative"
           >
-            <CardHeader>
-              <CardTitle>{title}</CardTitle>
-              <CardDescription>{description}</CardDescription>
+            <CardHeader className="flex flex-col gap-3">
+              <CardTitle className="text-center">{title}</CardTitle>
+              <CardDescription className="text-center">{description}</CardDescription>
             </CardHeader>
             <Badge
               data-pro={ProService.YES === pro}

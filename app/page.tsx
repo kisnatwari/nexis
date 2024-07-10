@@ -1,4 +1,5 @@
 import { BenefitsSection } from "@/components/layout/sections/benefits";
+import ContactForm from "@/components/layout/sections/ContactSection";
 import { FAQSection } from "@/components/layout/sections/faq";
 import { FeaturesSection } from "@/components/layout/sections/features";
 import { FooterSection } from "@/components/layout/sections/footer";
@@ -12,13 +13,14 @@ export default function Home() {
   return (
     <>
       <HeroSection />
-      <SponsorsSection />
+      {/* <SponsorsSection /> */}
       <BenefitsSection />
       <FeaturesSection />
       <ServicesSection />
       <TestimonialSection />
       <PricingSection />
       <FAQSection />
+      <ContactForm/>
       <FooterSection />
     </>
   );

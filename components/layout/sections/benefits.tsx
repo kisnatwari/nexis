@@ -43,7 +43,7 @@ export const BenefitsSection = () => {
           <h2 className="text-lg text-primary mb-2 tracking-wider">Benefits</h2>
 
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            How Nexis Gym Management Software Can Benefit Your Gym
+            How Nexis Gym Management Software Can Benefit Your Gym ?
           </h2>
           <p className="text-xl text-muted-foreground mb-8">
             Discover how our comprehensive gym management software can help streamline your operations, improve member engagement, and enhance overall efficiency.
@@ -72,7 +72,7 @@ export const BenefitsSection = () => {
                 <CardTitle>{title}</CardTitle>
               </CardHeader>
 
-              <CardContent className="text-muted-foreground">
+              <CardContent className="text-muted-foreground text-center">
                 {description}
               </CardContent>
             </Card>
