@@ -29,9 +29,9 @@ const reviewList: ReviewProps[] = [
   {
     image: "https://github.com/shadcn.png",
     name: "Prakash Gurung",
-    userName: "CPFC, Kshetrapur",
+    userName: "Chairman, CPFC",
     comment:
-      "As a gym member, I've been impressed by the convenience and user-friendliness of the Nexis Gym Management Software. The QR code system and mobile compatibility make it easy for me to manage my membership and stay connected with the gym.",
+      "As the Chairman of CPFC, I love how easy the Nexis Gym Management Software is to use. Managing memberships and staying connected with the gym is so simple now. The renewal SMS alerts have solved the problems with delayed payments and disputes when asking members to pay. Plus, it's great for managing multiple gym branches.",
     rating: 5.0,
   },
   {
@@ -39,17 +39,17 @@ const reviewList: ReviewProps[] = [
     name: "Maria Gurung",
     userName: "CPFC, Bharatpur",
     comment:
-      "The robust accounting features of Nexis Gym Management Software have been a game-changer for our gym. We can now track payments and revenues with ease, which has helped us make more informed business decisions and improve our overall financial management.",
+      "As the branch manager of CPFC Bharatpur, I find Nexis Gym Management System to be a game-changer for our gym. We can now use single integrated system to manage multiple tasks such as access management, account management, sms alert, etc. helping us to mangage members and accounts also the integrated sms system makes us easy to send the alerts about the various offers.",
     rating: 5.0,
   },
-  {
-    image: "https://github.com/shadcn.png",
-    name: "Priya Shrestha",
-    userName: "Fitness Enthusiast, Bhaktapur",
-    comment:
-      "I've been a member of several gyms, but Nexis Gym Management Software has been the most impressive. The automated SMS alerts and personalized content curation have kept me engaged and motivated to continue my fitness journey.",
-    rating: 4.9,
-  },
+  // {
+  //   image: "https://github.com/shadcn.png",
+  //   name: "Priya Shrestha",
+  //   userName: "Fitness Enthusiast, Bhaktapur",
+  //   comment:
+  //     "I've been a member of several gyms, but Nexis Gym Management Software has been the most impressive. The automated SMS alerts and personalized content curation have kept me engaged and motivated to continue my fitness journey.",
+  //   rating: 4.9,
+  // },
 ];
 
 export const TestimonialSection = () => {
@@ -69,7 +69,7 @@ export const TestimonialSection = () => {
         opts={{
           align: "start",
         }}
-        className="relative w-[80%] sm:w-[90%] lg:max-w-screen-xl mx-auto"
+        className="relative w-[100%] sm:w-[90%] lg:max-w-screen-xl mx-auto  "
       >
         <CarouselContent>
           {reviewList.map((review) => (
