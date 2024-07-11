@@ -10,26 +10,37 @@ const ContactForm = () => {
     <section className="body-font relative">
       <div className="container">
         <div className='text-center flex flex-col gap-3 mb-5'>
-          <p className="text-5xl font-extrabold">
+          <p className="text-4xl font-bold">
             Connect With Us.
           </p>
           <p>
-            we are always looking for new opportunities to collaborate with talented people.
+            Fill up the form for any enquiries.
           </p>
         </div>
         <Card className="max-w-[500px] rounded-lg p-8 flex flex-col mx-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
-          <h2 className="text-lg mb-1 font-medium">
+          <h2 className="text-xl mb-1 font-medium">
             Get a quote
           </h2>
-          <p className="leading-relaxed mb-5">
-            Explore our delicious selection of spices foods and get a personalized
-            quote for your order.
+          <p className="leading-relaxed mb-5 text-sm">
+            Explore our various packages that fits your requirements.
           </p>
           <div className="relative mb-4">
             <Label htmlFor="email" className="leading-7 text-sm">
-              Email
+              Business Name
             </Label>
             <Input />
+          </div>
+          <div className="relative mb-4">
+            <Label htmlFor="address" className="leading-7 text-sm">
+              Address
+            </Label>
+            <Input />
+          </div>
+          <div className="relative mb-4">
+            <Label htmlFor="phone" className="leading-7 text-sm">
+              Phone Number
+            </Label>
+            <Input/>
           </div>
           <div className="relative mb-4">
             <Label htmlFor="message" className="leading-7 text-sm">

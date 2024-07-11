@@ -33,21 +33,21 @@ const plans: PlanProps[] = [
     buttonText: "Get Started",
     benefitList: [
       "Complete Membership Management",
-      "Automated SMS Alert",
+      "Automated SMS Alerts",
       "1000 Free SMS"
     ],
   },
   {
     title: "Premium",
     popular: 1,
-    price: 60000,
+    price: 75000,
     description:
-      "Best suited for growing gym houses.",
+      "Best suited for growing gym business.",
     buttonText: "Get Started",
     benefitList: [
       "Complete Membership Management",
-      "Automated SMS Alert",
-      "Face Recognition system with 1500 member capacity",
+      "Automated SMS Alerts",
+      "Face Recognition System with 1500 active members capacity",
       "Accounting System",
       "5000 Free SMS"
     ],
@@ -55,18 +55,18 @@ const plans: PlanProps[] = [
   {
     title: "Pro",
     popular: 0,
-    price: 80000,
+    price: 100000,
     description:
-      "Best fit for gym houses with multiple branches and franchaises.",
+      "Best suited for gym business with multiple branches.",
     buttonText: "Get Started",
     benefitList: [
       "Complete Membership Management",
-      "Automated SMS Alert",
-      "Face Recognition system with 1500 member capacity",
+      "Automated SMS Alerts",
+      "Face Recognition System with 1500 active members capacity",
       "Accounting System",
       "10000 Free SMS",
       "Multi Branch Management",
-      "Free domain and server for first year",
+      "Free Domain and Server for First Year",
     ],
   },
 ];
@@ -78,13 +78,13 @@ export const PricingSection = () => {
         Pricing
       </h2>
 
-      <h2 className="text-3xl md:text-4xl text-center font-bold mb-4">
-        Get unlimited access
+      <h2 className="text-3xl md:text-4xl text-center font-bold mb-12 ">
+        Nexis Management Packages
       </h2>
 
-      <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
+      {/* <h3 className="md:w-1/2 mx-auto text-xl text-center text-muted-foreground pb-14">
         Lorem ipsum dolor sit amet consectetur adipisicing reiciendis.
-      </h3>
+      </h3> */}
 
       <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 lg:gap-4">
         {plans.map(
